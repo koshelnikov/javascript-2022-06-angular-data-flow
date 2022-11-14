@@ -3,7 +3,6 @@
 - ng new --create-application=false frontend
 - cd frontend
 - ng generate application individual (создаем приложение)
-- удаляем app.component.html
 - ng serve
 
 
