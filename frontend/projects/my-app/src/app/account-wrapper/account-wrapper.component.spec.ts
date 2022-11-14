@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { AccountWrapperComponent } from './account-wrapper.component';
+
+describe('AccountWrapperComponent', () => {
+  let component: AccountWrapperComponent;
+  let fixture: ComponentFixture<AccountWrapperComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ AccountWrapperComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(AccountWrapperComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

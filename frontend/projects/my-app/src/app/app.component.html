@@ -1,0 +1,17 @@
+<h1>Components</h1>
+
+<app-account-wrapper>
+  <app-add-account #addAccountComponent ></app-add-account>
+</app-account-wrapper>
+
+<br/>
+
+<app-account-wrapper>
+  <app-accounts></app-accounts>
+</app-account-wrapper>
+
+
+<h2>App Component Data (Global State)</h2>
+<div *ngFor="let account of accountService.accounts">
+  {{account}}
+</div>
